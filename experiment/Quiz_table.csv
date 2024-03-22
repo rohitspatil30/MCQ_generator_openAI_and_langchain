@@ -1,0 +1,4 @@
+MCQ,Choices,Correct
+What is one of the significant differences between deep learning and traditional machine learning?,a: Deep learning models require less computational resources|b: Deep learning models automatically learn hierarchical representations of data|c: Deep learning models are more interpretable|d: Deep learning models rely on handcrafted features,b
+Which type of tasks have seen substantial improvements with deep learning techniques?,a: Tasks with small datasets|b: Tasks with simple patterns|c: Tasks like image and speech recognition|d: Tasks with low computational requirements,c
+When might traditional machine learning methods be more suitable than deep learning?,a: When interpretability is not important|b: When dealing with complex patterns|c: When large datasets are available|d: When computational resources are limited,a

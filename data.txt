@@ -1,0 +1,19 @@
+Deep learning (DL) is a subset of machine learning (ML) that deals with algorithms inspired by the structure and function of the human brain, known as artificial neural networks. These networks consist of interconnected layers of nodes (neurons) that process information in a hierarchical manner.
+
+Here's how DL differs from traditional machine learning:
+
+1. **Hierarchy of Representation:** DL algorithms automatically learn to represent data in multiple layers of increasing complexity, allowing the system to discover intricate patterns within the data. This hierarchical representation is often more abstract and is one of the significant differences from traditional ML.
+
+2. **Feature Extraction:** In traditional ML, domain experts often handcraft the features used for training models. In DL, these features are learned automatically from the raw data, reducing the need for manual feature engineering.
+
+3. **Scale and Performance:** DL algorithms can handle vast amounts of data efficiently, often outperforming traditional ML methods on tasks like image and speech recognition, natural language processing, and more.
+
+4. **Computational Requirements:** Deep learning models typically require more computational resources, especially for training, due to their complex architecture and the need for large datasets. 
+
+5. **Representation Learning:** DL models can learn hierarchical representations of data, allowing them to understand and extract features at different levels of abstraction. This capability is one of the reasons for their success in various complex tasks.
+
+6. **Interpretability:** Traditional ML models are often more interpretable since their features are explicitly defined. In contrast, DL models, particularly deep neural networks, can be more complex and challenging to interpret.
+
+We use deep learning because it has shown remarkable performance in various domains, especially where data is abundant and complex patterns exist. Tasks like image and speech recognition, natural language understanding, recommendation systems, and autonomous vehicles have seen substantial improvements with deep learning techniques.
+
+However, it's essential to note that deep learning isn't a one-size-fits-all solution. For smaller datasets or when interpretability is crucial, traditional ML methods might be more suitable. Choosing between DL and ML often depends on the specific problem, available data, computational resources, and the level of interpretability required for the task at hand.
