@@ -49,7 +49,7 @@ def get_table_data(quiz_str):
         return False
 
 
-with open(r'D:\\languages\\python\\projects\\GenerativeAI_projects\\MCQ_generator_openAI_and_langchain\\Response.json', 'r') as file:
+with open(r'Response.json', 'r') as file:
     try:
         RESPONSE_JSON = json.load(file)
     except json.decoder.JSONDecodeError:
