@@ -1,0 +1,93 @@
+[2024-03-24 11:27:40,018] 149 root - ERROR - An error occurred: error reading the PDF file
+[2024-03-24 11:29:46,730] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 11:29:48,094] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 11:29:48,096] 212 root - INFO - Total Tokens: 1244
+[2024-03-24 11:29:48,096] 213 root - INFO - Prompt Tokens: 948
+[2024-03-24 11:29:48,096] 214 root - INFO - Completion Tokens: 296
+[2024-03-24 11:29:48,096] 215 root - INFO - Total Cost: 0.002014
+[2024-03-24 11:30:17,299] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 11:30:18,303] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 11:30:18,303] 212 root - INFO - Total Tokens: 1232
+[2024-03-24 11:30:18,303] 213 root - INFO - Prompt Tokens: 946
+[2024-03-24 11:30:18,303] 214 root - INFO - Completion Tokens: 286
+[2024-03-24 11:30:18,303] 215 root - INFO - Total Cost: 0.0019909999999999997
+[2024-03-24 11:31:28,261] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 11:31:29,581] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 11:31:29,581] 216 root - INFO - Total Tokens: 1220
+[2024-03-24 11:31:29,581] 217 root - INFO - Prompt Tokens: 935
+[2024-03-24 11:31:29,581] 218 root - INFO - Completion Tokens: 285
+[2024-03-24 11:31:29,581] 219 root - INFO - Total Cost: 0.0019725
+[2024-03-24 11:37:55,240] 80 root - ERROR - An error occurred: name 'RESPONSE_JSON' is not defined
+[2024-03-24 11:37:57,570] 80 root - ERROR - An error occurred: name 'RESPONSE_JSON' is not defined
+[2024-03-24 11:38:26,533] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 11:38:27,759] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 11:38:27,763] 65 root - INFO - Total Tokens: 1232
+[2024-03-24 11:38:27,764] 66 root - INFO - Prompt Tokens: 935
+[2024-03-24 11:38:27,764] 67 root - INFO - Completion Tokens: 297
+[2024-03-24 11:38:27,764] 68 root - INFO - Total Cost: 0.0019965
+[2024-03-24 11:41:20,719] 104 root - ERROR - An error occurred: error reading the PDF file
+[2024-03-24 11:41:22,689] 104 root - ERROR - An error occurred: error reading the PDF file
+[2024-03-24 11:42:20,839] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 11:42:23,183] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 11:42:23,186] 81 root - INFO - Total Tokens: 1199
+[2024-03-24 11:42:23,188] 82 root - INFO - Prompt Tokens: 925
+[2024-03-24 11:42:23,188] 83 root - INFO - Completion Tokens: 274
+[2024-03-24 11:42:23,188] 84 root - INFO - Total Cost: 0.0019355000000000002
+[2024-03-24 11:42:56,737] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 11:42:58,151] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 11:42:58,156] 81 root - INFO - Total Tokens: 1248
+[2024-03-24 11:42:58,156] 82 root - INFO - Prompt Tokens: 946
+[2024-03-24 11:42:58,156] 83 root - INFO - Completion Tokens: 302
+[2024-03-24 11:42:58,156] 84 root - INFO - Total Cost: 0.002023
+[2024-03-24 12:01:11,223] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:01:12,304] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:01:12,309] 81 root - INFO - Total Tokens: 1202
+[2024-03-24 12:01:12,309] 82 root - INFO - Prompt Tokens: 925
+[2024-03-24 12:01:12,309] 83 root - INFO - Completion Tokens: 277
+[2024-03-24 12:01:12,309] 84 root - INFO - Total Cost: 0.0019415
+[2024-03-24 12:01:47,122] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:01:48,272] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:01:48,272] 81 root - INFO - Total Tokens: 1198
+[2024-03-24 12:01:48,280] 82 root - INFO - Prompt Tokens: 923
+[2024-03-24 12:01:48,281] 83 root - INFO - Completion Tokens: 275
+[2024-03-24 12:01:48,281] 84 root - INFO - Total Cost: 0.0019345
+[2024-03-24 12:02:23,104] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:02:24,220] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:02:24,225] 81 root - INFO - Total Tokens: 1209
+[2024-03-24 12:02:24,225] 82 root - INFO - Prompt Tokens: 929
+[2024-03-24 12:02:24,225] 83 root - INFO - Completion Tokens: 280
+[2024-03-24 12:02:24,225] 84 root - INFO - Total Cost: 0.0019535
+[2024-03-24 12:02:41,232] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:02:41,622] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+[2024-03-24 12:02:41,625] 1015 openai._base_client - INFO - Retrying request to /chat/completions in 20.000000 seconds
+[2024-03-24 12:03:02,988] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:03:02,996] 81 root - INFO - Total Tokens: 1216
+[2024-03-24 12:03:02,996] 82 root - INFO - Prompt Tokens: 932
+[2024-03-24 12:03:02,997] 83 root - INFO - Completion Tokens: 284
+[2024-03-24 12:03:02,997] 84 root - INFO - Total Cost: 0.001966
+[2024-03-24 12:04:06,240] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:04:07,796] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:04:07,796] 82 root - INFO - Total Tokens: 1211
+[2024-03-24 12:04:07,796] 83 root - INFO - Prompt Tokens: 929
+[2024-03-24 12:04:07,796] 84 root - INFO - Completion Tokens: 282
+[2024-03-24 12:04:07,796] 85 root - INFO - Total Cost: 0.0019575
+[2024-03-24 12:05:03,333] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:05:04,326] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:05:04,329] 81 root - INFO - Total Tokens: 1109
+[2024-03-24 12:05:04,332] 82 root - INFO - Prompt Tokens: 882
+[2024-03-24 12:05:04,332] 83 root - INFO - Completion Tokens: 227
+[2024-03-24 12:05:04,332] 84 root - INFO - Total Cost: 0.001777
+[2024-03-24 12:05:04,343] 98 root - ERROR - An error occurred: DataFrame constructor not properly called!
+[2024-03-24 12:05:57,308] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:05:58,917] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:05:58,921] 81 root - INFO - Total Tokens: 1224
+[2024-03-24 12:05:58,921] 82 root - INFO - Prompt Tokens: 940
+[2024-03-24 12:05:58,921] 83 root - INFO - Completion Tokens: 284
+[2024-03-24 12:05:58,921] 84 root - INFO - Total Cost: 0.0019779999999999997
+[2024-03-24 12:05:58,926] 98 root - ERROR - An error occurred: DataFrame constructor not properly called!
+[2024-03-24 12:06:27,446] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:06:28,644] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:06:28,648] 81 root - INFO - Total Tokens: 1206
+[2024-03-24 12:06:28,648] 82 root - INFO - Prompt Tokens: 928
+[2024-03-24 12:06:28,648] 83 root - INFO - Completion Tokens: 278
+[2024-03-24 12:06:28,648] 84 root - INFO - Total Cost: 0.001948

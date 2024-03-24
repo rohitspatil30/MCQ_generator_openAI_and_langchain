@@ -1,0 +1,62 @@
+[2024-03-24 12:13:30,666] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:13:32,282] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:13:32,285] 81 root - INFO - Total Tokens: 1415
+[2024-03-24 12:13:32,285] 82 root - INFO - Prompt Tokens: 1115
+[2024-03-24 12:13:32,285] 83 root - INFO - Completion Tokens: 300
+[2024-03-24 12:13:32,286] 84 root - INFO - Total Cost: 0.0022725
+[2024-03-24 12:13:32,292] 98 root - ERROR - An error occurred: DataFrame constructor not properly called!
+[2024-03-24 12:15:32,658] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:15:34,341] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:15:34,350] 81 root - INFO - Total Tokens: 1226
+[2024-03-24 12:15:34,350] 82 root - INFO - Prompt Tokens: 933
+[2024-03-24 12:15:34,350] 83 root - INFO - Completion Tokens: 293
+[2024-03-24 12:15:34,350] 84 root - INFO - Total Cost: 0.0019855
+[2024-03-24 12:17:30,168] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:17:31,437] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:17:31,440] 81 root - INFO - Total Tokens: 1339
+[2024-03-24 12:17:31,440] 82 root - INFO - Prompt Tokens: 1073
+[2024-03-24 12:17:31,440] 83 root - INFO - Completion Tokens: 266
+[2024-03-24 12:17:31,440] 84 root - INFO - Total Cost: 0.0021415
+[2024-03-24 12:17:31,443] 98 root - ERROR - An error occurred: DataFrame constructor not properly called!
+[2024-03-24 12:17:45,723] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:17:46,025] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+[2024-03-24 12:17:46,026] 1015 openai._base_client - INFO - Retrying request to /chat/completions in 20.000000 seconds
+[2024-03-24 12:18:07,246] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:18:07,247] 81 root - INFO - Total Tokens: 1329
+[2024-03-24 12:18:07,248] 82 root - INFO - Prompt Tokens: 1065
+[2024-03-24 12:18:07,248] 83 root - INFO - Completion Tokens: 264
+[2024-03-24 12:18:07,248] 84 root - INFO - Total Cost: 0.0021255000000000002
+[2024-03-24 12:18:07,250] 98 root - ERROR - An error occurred: DataFrame constructor not properly called!
+[2024-03-24 12:18:59,673] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:19:02,732] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:19:02,735] 81 root - INFO - Total Tokens: 2367
+[2024-03-24 12:19:02,735] 82 root - INFO - Prompt Tokens: 2061
+[2024-03-24 12:19:02,735] 83 root - INFO - Completion Tokens: 306
+[2024-03-24 12:19:02,735] 84 root - INFO - Total Cost: 0.0037035
+[2024-03-24 12:19:02,739] 98 root - ERROR - An error occurred: DataFrame constructor not properly called!
+[2024-03-24 12:22:04,293] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:22:05,732] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:22:05,735] 81 root - INFO - Total Tokens: 1446
+[2024-03-24 12:22:05,735] 82 root - INFO - Prompt Tokens: 1129
+[2024-03-24 12:22:05,736] 83 root - INFO - Completion Tokens: 317
+[2024-03-24 12:22:05,736] 84 root - INFO - Total Cost: 0.0023275
+[2024-03-24 12:22:05,738] 98 root - ERROR - An error occurred: DataFrame constructor not properly called!
+[2024-03-24 12:25:01,094] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:25:02,418] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:25:02,421] 81 root - INFO - Total Tokens: 2289
+[2024-03-24 12:25:02,421] 82 root - INFO - Prompt Tokens: 1984
+[2024-03-24 12:25:02,421] 83 root - INFO - Completion Tokens: 305
+[2024-03-24 12:25:02,421] 84 root - INFO - Total Cost: 0.0035859999999999998
+[2024-03-24 12:25:02,424] 98 root - ERROR - An error occurred: DataFrame constructor not properly called!
+[2024-03-24 12:25:33,979] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:25:35,671] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:25:35,674] 81 root - INFO - Total Tokens: 1198
+[2024-03-24 12:25:35,675] 82 root - INFO - Prompt Tokens: 924
+[2024-03-24 12:25:35,675] 83 root - INFO - Completion Tokens: 274
+[2024-03-24 12:25:35,675] 84 root - INFO - Total Cost: 0.001934
+[2024-03-24 12:27:13,752] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:27:15,205] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 12:27:15,207] 81 root - INFO - Total Tokens: 1223
+[2024-03-24 12:27:15,207] 82 root - INFO - Prompt Tokens: 931
+[2024-03-24 12:27:15,207] 83 root - INFO - Completion Tokens: 292
+[2024-03-24 12:27:15,207] 84 root - INFO - Total Cost: 0.0019805

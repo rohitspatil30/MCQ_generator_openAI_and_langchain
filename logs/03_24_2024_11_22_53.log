@@ -1,0 +1,7 @@
+[2024-03-24 11:23:40,360] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 11:23:42,142] 1013 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-03-24 11:23:42,145] 133 root - INFO - Total Tokens: 1243
+[2024-03-24 11:23:42,145] 134 root - INFO - Prompt Tokens: 947
+[2024-03-24 11:23:42,147] 135 root - INFO - Completion Tokens: 296
+[2024-03-24 11:23:42,147] 136 root - INFO - Total Cost: 0.0020125
+[2024-03-24 11:23:42,147] 155 root - ERROR - An error occurred: name 'get_table_data' is not defined
