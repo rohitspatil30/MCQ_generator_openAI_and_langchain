@@ -152,173 +152,156 @@ Pandas is a powerful library for data manipulation and analysis. It's commonly u
 - **DataFrame**: Use for 2-dimensional data, can be created from dictionaries of Series or directly from data structures like lists or arrays.
 - **File Operations**: Use `pd.read_csv()` to read CSV files and `to_csv()` to write them. Use `pd.read_json()` to read JSON data.
 
-Reading Data from a CSV File
-python
-Copy code
-file = pd.read_csv("data.csv")
-print("reading completed!")
-This code reads data from a CSV file named data.csv into a DataFrame called file and prints a confirmation message. The pd.read_csv() function is used to load the data.
+---
 
-Viewing the Data: Head and Tail
-Head
-python
-Copy code
-print(file.head(10))
-The head() method returns the first 10 rows of the DataFrame file. By default, head() returns the first 5 rows. This method is useful for getting a quick overview of the data.
+### **Reading and Viewing Data**
 
-Tail
-python
-Copy code
-print(file.tail(10))
-Similarly, the tail() method returns the last 10 rows of the DataFrame file. By default, tail() returns the last 5 rows, providing insight into the end of the data.
+- **Reading Data:**
+  ```python
+  file = pd.read_csv("data.csv")
+  ```
 
-Information About the DataFrame
-python
-Copy code
-info = file.info()
-print(info)
-The info() method provides a summary of the DataFrame, including the number of entries, column names, non-null counts, and data types. It helps in understanding the structure and completeness of the data.
+- **Viewing the First and Last Rows:**
+  ```python
+  print(file.head(10))  # First 10 rows
+  print(file.tail(10))  # Last 10 rows
+  ```
 
-Handling Null Values
-The info() method also shows that there are 5 missing values in the "Calories" column. Handling null values is crucial for accurate data analysis. Strategies include removing or imputing missing values.
+- **Basic Information:**
+  ```python
+  print(file.info())  # DataFrame information
+  ```
 
-Data Attributes and Metadata
-Data Types
-python
-Copy code
-print(file.dtypes)
-The dtypes attribute provides the data type of each column in the DataFrame. This helps in understanding what kind of data is stored in each column (e.g., int64, float64, object).
+### **DataFrame Attributes and Methods**
 
-Columns
-python
-Copy code
-print(file.columns)
-The columns attribute returns the names of all columns in the DataFrame. This is useful for understanding the structure of the DataFrame.
+- **Data Types:**
+  ```python
+  print(file.dtypes)
+  ```
 
-Adding and Deleting Columns
-Adding a Column
-python
-Copy code
-data = {'Name': ['Jai', 'Princi', 'Gaurav', 'Anuj'],
-        'Height': [5.1, 6.2, 5.1, 5.2],
-        'Qualification': ['Msc', 'MA', 'Msc', 'Msc']}
-df = pd.DataFrame(data)
-address = ['Delhi', 'Bangalore', 'Chennai', 'Patna']
-df['Address'] = address
-print(df)
-Here, a new column named Address is added to the DataFrame df. This demonstrates how to insert additional columns into an existing DataFrame.
+- **Columns:**
+  ```python
+  print(file.columns)
+  ```
 
-Deleting a Column
-python
-Copy code
-df.drop(["Qualification"], axis=1, inplace=True)
-print(df)
-The drop() method is used to remove the Qualification column from the DataFrame df. The axis=1 argument specifies that a column is being dropped. The inplace=True argument modifies the DataFrame in place.
+### **DataFrame Operations**
 
-Adding and Deleting Rows
-Adding a Row
-python
-Copy code
-new_row = pd.DataFrame({'Name': 'Geeks', 'Team': 'Boston', 'Number': 3, 'Position': 'PG', 'Age': 33, 'Height': '6-2', 'Weight': 189, 'College': 'MIT', 'Salary': 99999}, index=[0])
-df = pd.concat([new_row, df]).reset_index(drop=True)
-print(df)
-A new row is added to the DataFrame using pd.concat(). This method concatenates the new row with the existing DataFrame df, and reset_index(drop=True) reindexes the DataFrame.
+- **Adding a Column:**
+  ```python
+  df['Address'] = ['Delhi', 'Bangalore', 'Chennai', 'Patna']
+  ```
 
-Deleting a Row
-python
-Copy code
-df.drop([0], inplace=True) # Example of dropping a row by index
-print(df)
-The drop() method with index [0] is used to remove a specific row from the DataFrame. The inplace=True argument ensures that the DataFrame is modified directly.
+- **Deleting a Column:**
+  ```python
+  df.drop(["Qualification"], axis=1, inplace=True)
+  ```
 
-Index and Descriptive Statistics
-Index
-python
-Copy code
-print(file.index)
-The index attribute returns the index of the DataFrame, showing the range and step of the row indices.
+- **Adding Rows:**
+  ```python
+  new_row = pd.DataFrame({'Name': 'Geeks', 'Team': 'Boston', 'Number': 3, 'Position': 'PG', 'Age': 33, 'Height': '6-2', 'Weight': 189, 'College': 'MIT', 'Salary': 99999}, index=[0])
+  df = pd.concat([new_row, df]).reset_index(drop=True)
+  ```
 
-Descriptive Statistics
-python
-Copy code
-file_describe = file.describe()
-print(file_describe)
-The describe() method provides statistical summaries for numerical columns, such as count, mean, standard deviation, min, max, and quartiles.
+- **Removing Rows:**
+  ```python
+  df.drop([0, 1], inplace=True)  # Example: Dropping specific indices
+  ```
 
-Mathematical Operations
-Mean
-python
-Copy code
-print(file.mean())
-The mean() method calculates the mean (average) for each numerical column in the DataFrame.
+### **Indexing and Selection**
 
-Median
-python
-Copy code
-print(file.median())
-The median() method calculates the median value for each numerical column, which represents the middle value when the data is sorted.
+- **Index:**
+  ```python
+  print(file.index)
+  ```
 
-Size
-python
-Copy code
-print(file.size)
-The size attribute returns the total number of elements in the DataFrame, which is the product of the number of rows and columns.
+- **Describe:**
+  ```python
+  print(file.describe())
+  ```
 
-Label-Based Indexing and Slicing
-Creating a DataFrame
-python
-Copy code
-names = ["Abhi", "Bholu", "Anand", "Chandan"]
-roll_no = [1, 34, 23, 60]
-CGPA = [7.5, 8.9, 9.5, 7.0]
-class_data = pd.DataFrame({"Names": names, "Roll no": roll_no, "CGPA": CGPA})
-print(class_data)
-This code creates a DataFrame class_data with columns for student names, roll numbers, and CGPA.
+- **Math Functions:**
+  ```python
+  print(file.mean())
+  print(file.median())
+  ```
 
-Label-Based Indexing
-python
-Copy code
-a = pd.Series(class_data["CGPA"], index=[1, 2, 3, 3])
-print(a.loc[3])
-The loc method returns all values that correspond to the index value 3 in the Series a. It includes duplicate index values.
+- **Conditional Selection:**
+  ```python
+  print(class_data[class_data["CGPA"] > 8.0])
+  ```
 
-Positional Indexing
-python
-Copy code
-print(a.iloc[3])
-The iloc method returns the value at the positional index 3, which is the fourth element of the Series.
+### **Advanced Data Analysis**
 
-Conditional Printing
-python
-Copy code
-print(class_data[class_data["CGPA"] > 8.0])
-This code filters and prints rows from class_data where the CGPA is greater than 8.0.
+- **CrossTab:**
+  ```python
+  pd.crosstab(file["Pulse"], file["Duration"])
+  ```
 
-CrossTabulation
-python
-Copy code
-pd.crosstab(file["Pulse"], file["Duration"])
-The crosstab() function creates a cross-tabulation (contingency table) between the Pulse and Duration columns, showing the frequency of each combination.
+- **Group By:**
+  ```python
+  print(file.groupby(["Pulse"]).mean())
+  ```
 
-Plotting Data
-python
-Copy code
-import matplotlib.pyplot as plt
+### **Data Visualization**
 
-file["Maxpulse"].plot()
-plt.show()
+- **Plotting:**
+  ```python
+  import matplotlib.pyplot as plt
+  file["Maxpulse"].plot()
+  file["Calories"].hist()
+  ```
 
-file["Calories"].hist()
-plt.show()
-Here, plot() creates a line plot for the Maxpulse column, and hist() creates a histogram for the Calories column.
+### **Data Cleaning**
 
-Handling Currency Data
-python
-Copy code
-import regex
+- **Cleaning Strings and Conversion:**
+  ```python
+  df['Amount'] = df['Amount'].replace('[\$\,\.]', '', regex=True).astype(int)
+  ```
 
-data = {'Amount': ['$1,234.56', '$2,345.67', '$3,456.78']}
-df = pd.DataFrame(data)
-df['Amount'] = df['Amount'].replace('[\$\,\.]', '', regex=True).astype(int)
-print(df)
-This code removes dollar signs, commas, and periods from the Amount column and converts the values to integers.
+### **Additional Tips**
+
+- **Explore `pd.DataFrame` Methods:**
+  Use methods like `df.sort_values()`, `df.fillna()`, `df.dropna()` for more data manipulation.
+  
+- **Visualizations:**
+  Customize plots using `plt.title()`, `plt.xlabel()`, `plt.ylabel()`, and other matplotlib features.
+
+- **Documentation:**
+  Refer to the [pandas documentation](https://pandas.pydata.org/pandas-docs/stable/) for more in-depth explanations and additional functions.
+
+--- 
+
+### Reassigning Columns
+When reassigning columns or filling missing values:
+```python
+file["Assignments"] = file["Assignments"].fillna(file["Assignments"].mean())
+```
+
+### Adding Columns
+Adding columns can be done in several ways:
+- **From a Series:**
+  ```python
+  se = pd.Series(range(1, len(file) + 1))
+  file["NewColumn"] = se
+  ```
+- **From a List:**
+  ```python
+  file["NewListColumn"] = [num for num in range(1, len(file) + 1)]
+  ```
+- **Using a Condition:**
+  ```python
+  file["ConditionalColumn"] = [i if i % 2 == 0 else np.nan for i in range(len(file))]
+  ```
+
+### Deleting Columns
+To remove a column:
+```python
+file.drop("ColumnName", axis=1, inplace=True)
+```
+
+### Shuffling Data
+To shuffle rows:
+```python
+shuffled_file = file.sample(frac=1).reset_index(drop=True)
+```
+
